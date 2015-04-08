@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item 
+         Set id, icon and Title for each menu item
+    -->
+
+    <item
+        android:id="@+id/menu_clearscores"
+        android:title="Clear All Scores"/>
+
+
+    <item
+        android:id="@+id/menu_teamdivider"
+        android:title="Team Allocations">
+
+        <menu>
+
+            <item
+                android:id="@+id/FLPair"
+                android:title="First-and-last Pair"/>
+
+            <item
+                android:id="@+id/LeadersPick"
+                android:title="Leader Picks"/>
+            
+            <item
+                android:id="@+id/BetaTest"
+                android:title="For testing purposes"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"/>
+
+
+</menu>
